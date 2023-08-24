@@ -46,6 +46,118 @@ elementDiv.addEventListener("click", function(){update("/")});
 elementEqual.addEventListener("click", dspResult);
 elementCancel.addEventListener("click", clear);
 
+document.body.addEventListener("keydown",su1);
+function su1(event){
+  if(event.key === "1"){
+    num1.click();
+  }
+}
+
+document.body.addEventListener("keydown",su2);
+function su2(event){
+  if(event.key === "2"){
+    num2.click();
+  }
+}
+
+document.body.addEventListener("keydown",su3);
+function su3(event){
+  if(event.key === "3"){
+    num3.click();
+  }
+}
+
+document.body.addEventListener("keydown",su4);
+function su4(event){
+  if(event.key === "4"){
+    num4.click();
+  }
+}
+
+document.body.addEventListener("keydown",su5);
+function su5(event){
+  if(event.key === "5"){
+    num5.click();
+  }
+}
+
+document.body.addEventListener("keydown",su6);
+function su6(event){
+  if(event.key === "6"){
+    num6.click();
+  }
+}
+
+document.body.addEventListener("keydown",su7);
+function su7(event){
+  if(event.key === "7"){
+    num7.click();
+  }
+}
+
+document.body.addEventListener("keydown",su8);
+function su8(event){
+  if(event.key === "8"){
+    num8.click();
+  }
+}
+
+document.body.addEventListener("keydown",su9);
+function su9(event){
+  if(event.key === "9"){
+    num9.click();
+  }
+}
+
+document.body.addEventListener("keydown",su0);
+function su0(event){
+  if(event.key === "0"){
+    num0.click();
+  }
+}
+
+document.body.addEventListener("keydown",suadd);
+function suadd(event){
+  if(event.key === "+"){
+    elementAdd.click();
+  }
+}
+
+document.body.addEventListener("keydown",susub);
+function susub(event){
+  if(event.key === "-"){
+    elementSub.click();
+  }
+}
+
+document.body.addEventListener("keydown",sumult);
+function sumult(event){
+  if(event.key === "*"){
+    elementMult.click();
+  }
+}
+
+document.body.addEventListener("keydown",sudiv);
+function sudiv(event){
+  if(event.key === "/"){
+    elementDiv.click();
+  }
+}
+
+document.body.addEventListener("keydown",suequal);
+function suequal(event){
+  if(event.key === "Enter"){
+    elementEqual.click();
+  }
+}
+
+document.body.addEventListener("keydown",suecancel);
+function suecancel(event){
+  if(event.key === "c"){
+    elementCancel.click();
+  }
+}
+
 
 /** 数字がクリックされたときの処理 */
 function edit(wkInput) {
@@ -130,3 +242,5 @@ function calculator() {
   }
   elementResult.innerHTML = wkTotal;
 }
+
+
